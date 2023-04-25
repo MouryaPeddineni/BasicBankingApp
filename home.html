@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home page</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        header{
+            background-image: linear-gradient(to right,white,grey);
+        }
+        h1{
+            position: absolute;
+            top: 28px;
+            right: 40%;
+        }
+        section{
+            width: 100%;
+            height: 450px;
+        }
+        footer{
+            width: 100%;
+            height: 50px;
+            background-color: blanchedalmond;
+        }
+        footer p{
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+        #first{
+            font-size: 30px;
+            position: absolute;
+            top: 30px;
+            right: 325px;
+            color: black;
+            background-color: aqua;
+        }
+        #second{
+            font-size: 30px;
+            position: absolute;
+            top: 30px;
+            right: 180px;
+            color: black;
+            background-color: aqua;
+        }
+        #third{
+            font-size: 30px;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            color: black;
+            background-color: aqua;
+        }
+        #first:hover,#second:hover,#third:hover{
+            color: blue;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <i class="fa fa-bank" style="font-size:80px;padding:10px;color: rgb(58, 187, 226);"></i>
+        <h1>PEOPLE'S BANK</h1>
+        <nav>
+            <ul type="none">
+                <li><a href="home.html" id="first">Home</a></li>
+                <li><a href="customers.html" target="display" id="second">Customers</a></li>
+                <li><a href="contact.html" target="display" id="third">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <iframe src="select.html" name="display" width="100%" height="450px" title="Display Website"></iframe>
+    </section>
+    <footer>
+        <p>For further queries,enquire at bank@gmail.com or call +91 7567363845.</p>
+    </footer>
+</body>
+</html>
